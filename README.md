@@ -9,3 +9,7 @@
 # Develop:
 
 npm start && compass watch  --config config.rb sass/screen.scss
+
+# Production:
+
+uncomment UglifyJsPlugin code in webpack.config.js && $ webpack
